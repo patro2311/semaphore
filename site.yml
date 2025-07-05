@@ -4,5 +4,5 @@
     tasks:
       - name: INSTALL APACHE
         dnf:
-        name: httpd
-        state: present
+          name: httpd
+          state: present
