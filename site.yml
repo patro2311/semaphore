@@ -1,9 +1,8 @@
 ---
-  - host: all
-    become: true
-    tasks:
-
-      - name: INSTALL APACHE
-        dnf:
-          name: httpd
-          state: present
+- host: all
+  become: true
+  tasks:
+    - name: INSTALL APACHE
+      dnf:
+      name: httpd
+      state: present
